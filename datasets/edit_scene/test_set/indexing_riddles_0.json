@@ -1,0 +1,204 @@
+{
+  "context": {
+    "characters": {
+      "list_display_order": "qa",
+      "qa": {
+        "name": "Luna",
+        "essence": "Haunted dreamer",
+        "appearance": "Pale skin, long dark hair",
+        "character_age": "28 years old",
+        "clothing": "Flowing white nightgown"
+      }
+    }
+  },
+  "json_to_edit": {
+    "voice_over": "The melody echoes through my subconscious, a siren's call I can't escape.",
+    "description": "Luna finds herself in a surreal dreamscape, pursued by an eerie melody.",
+    "location": "Dreamscape",
+    "lighting": "Ethereal, shifting colors",
+    "weather": "Misty",
+    "ambience_sound_keywords": "Distant echoes, whispers, soft wind",
+    "number_of_shots": "6",
+    "name": "Melody of Dreams",
+    "scene_summary": "Luna is haunted by a mysterious melody in her dreams, unable to wake or escape.",
+    "shots": {
+      "list_display_order": "qa,hf,tr,xc,ka,fn",
+      "qa": {
+        "type": "Wide-shot",
+        "sfx_keywords": "ethereal music, soft wind",
+        "action": "Luna stands in a misty, ever-shifting dreamscape, looking lost and confused."
+      },
+      "hf": {
+        "type": "Medium-shot",
+        "sfx_keywords": "haunting melody, heartbeat",
+        "action": "Luna turns her head, trying to locate the source of the mysterious music."
+      },
+      "tr": {
+        "type": "Close-up",
+        "sfx_keywords": "whispers, soft tinkling",
+        "action": "Luna's eyes widen in fear as the melody grows louder and more insistent."
+      },
+      "xc": {
+        "type": "Tracking shot",
+        "sfx_keywords": "crescendo of music, rushing wind",
+        "action": "Luna runs through the shifting dreamscape, the melody pursuing her relentlessly."
+      },
+      "ka": {
+        "type": "Dutch angle shot",
+        "sfx_keywords": "distorted melody, echoing footsteps",
+        "action": "The dreamscape twists and warps around Luna, becoming more nightmarish."
+      },
+      "fn": {
+        "type": "Extreme close-up",
+        "sfx_keywords": "loud heartbeat, climactic music",
+        "action": "Luna's eye snaps open, filled with terror, as she realizes she can't wake up."
+      }
+    }
+  },
+  "edit_command": "Add a new shot before each existing shot, but don't change anything else in the scene.",
+  "label": {
+    "updated_json": {
+      "voice_over": "The melody echoes through my subconscious, a siren's call I can't escape.",
+      "description": "Luna finds herself in a surreal dreamscape, pursued by an eerie melody.",
+      "location": "Dreamscape",
+      "lighting": "Ethereal, shifting colors",
+      "weather": "Misty",
+      "ambience_sound_keywords": "Distant echoes, whispers, soft wind",
+      "number_of_shots": "12",
+      "name": "Melody of Dreams",
+      "scene_summary": "Luna is haunted by a mysterious melody in her dreams, unable to wake or escape.",
+      "shots": {
+        "list_display_order": "zx,qa,wy,hf,uv,tr,st,xc,rq,ka,po,fn",
+        "zx": {
+          "type": "Establishing shot",
+          "sfx_keywords": "faint melody, dream-like ambience",
+          "action": "A swirling mist reveals the ethereal dreamscape, setting the stage for Luna's entrance."
+        },
+        "qa": {
+          "type": "Wide-shot",
+          "sfx_keywords": "ethereal music, soft wind",
+          "action": "Luna stands in a misty, ever-shifting dreamscape, looking lost and confused."
+        },
+        "wy": {
+          "type": "POV shot",
+          "sfx_keywords": "muffled heartbeat, distant whispers",
+          "action": "Through Luna's eyes, we see the dreamscape shift and morph, hinting at unseen dangers."
+        },
+        "hf": {
+          "type": "Medium-shot",
+          "sfx_keywords": "haunting melody, heartbeat",
+          "action": "Luna turns her head, trying to locate the source of the mysterious music."
+        },
+        "uv": {
+          "type": "Over-the-shoulder shot",
+          "sfx_keywords": "crescendo of whispers, soft chimes",
+          "action": "We see what Luna sees: shadowy figures forming and dissipating in the mist."
+        },
+        "tr": {
+          "type": "Close-up",
+          "sfx_keywords": "whispers, soft tinkling",
+          "action": "Luna's eyes widen in fear as the melody grows louder and more insistent."
+        },
+        "st": {
+          "type": "Slow-motion shot",
+          "sfx_keywords": "distorted melody, whooshing air",
+          "action": "Luna's hair and nightgown flow as if underwater, emphasizing the surreal nature of the dreamscape."
+        },
+        "xc": {
+          "type": "Tracking shot",
+          "sfx_keywords": "crescendo of music, rushing wind",
+          "action": "Luna runs through the shifting dreamscape, the melody pursuing her relentlessly."
+        },
+        "rq": {
+          "type": "Aerial shot",
+          "sfx_keywords": "swirling winds, echoing melody",
+          "action": "From above, we see Luna running through a maze-like pattern in the misty dreamscape."
+        },
+        "ka": {
+          "type": "Dutch angle shot",
+          "sfx_keywords": "distorted melody, echoing footsteps",
+          "action": "The dreamscape twists and warps around Luna, becoming more nightmarish."
+        },
+        "po": {
+          "type": "Extreme wide shot",
+          "sfx_keywords": "thunderous heartbeat, crescendo of music",
+          "action": "The entire dreamscape pulsates with the rhythm of the melody, closing in on Luna."
+        },
+        "fn": {
+          "type": "Extreme close-up",
+          "sfx_keywords": "loud heartbeat, climactic music",
+          "action": "Luna's eye snaps open, filled with terror, as she realizes she can't wake up."
+        }
+      }
+    },
+    "is_unsupported": false,
+    "rationale": "we will add a new shot before each existing shot in the scene, effectively doubling the number of shots from 6 to 12. this will require updating the \"number_of_shots\" field, adding new shots to the \"shots\" dictionary, and modifying the \"list_display_order\" to include the new shots. we'll create new, creative shots that complement the existing ones and maintain the dreamlike, haunting atmosphere of the scene. the new shots will be inserted before each existing shot, alternating between the new and original shots in the updated list_display_order."
+  },
+  "json_diff": [
+    {
+      "op": "replace",
+      "path": "/number_of_shots",
+      "value": "12"
+    },
+    {
+      "op": "add",
+      "path": "/shots/zx",
+      "value": {
+        "type": "Establishing shot",
+        "sfx_keywords": "faint melody, dream-like ambience",
+        "action": "A swirling mist reveals the ethereal dreamscape, setting the stage for Luna's entrance."
+      }
+    },
+    {
+      "op": "add",
+      "path": "/shots/wy",
+      "value": {
+        "type": "POV shot",
+        "sfx_keywords": "muffled heartbeat, distant whispers",
+        "action": "Through Luna's eyes, we see the dreamscape shift and morph, hinting at unseen dangers."
+      }
+    },
+    {
+      "op": "add",
+      "path": "/shots/uv",
+      "value": {
+        "type": "Over-the-shoulder shot",
+        "sfx_keywords": "crescendo of whispers, soft chimes",
+        "action": "We see what Luna sees: shadowy figures forming and dissipating in the mist."
+      }
+    },
+    {
+      "op": "add",
+      "path": "/shots/st",
+      "value": {
+        "type": "Slow-motion shot",
+        "sfx_keywords": "distorted melody, whooshing air",
+        "action": "Luna's hair and nightgown flow as if underwater, emphasizing the surreal nature of the dreamscape."
+      }
+    },
+    {
+      "op": "add",
+      "path": "/shots/rq",
+      "value": {
+        "type": "Aerial shot",
+        "sfx_keywords": "swirling winds, echoing melody",
+        "action": "From above, we see Luna running through a maze-like pattern in the misty dreamscape."
+      }
+    },
+    {
+      "op": "add",
+      "path": "/shots/po",
+      "value": {
+        "type": "Extreme wide shot",
+        "sfx_keywords": "thunderous heartbeat, crescendo of music",
+        "action": "The entire dreamscape pulsates with the rhythm of the melody, closing in on Luna."
+      }
+    },
+    {
+      "op": "replace",
+      "path": "/shots/list_display_order",
+      "value": "zx,qa,wy,hf,uv,tr,st,xc,rq,ka,po,fn"
+    }
+  ],
+  "validation_labels": []
+}

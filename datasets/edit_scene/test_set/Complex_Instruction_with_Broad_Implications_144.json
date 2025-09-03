@@ -1,0 +1,163 @@
+{
+  "context": {
+    "characters": {
+      "list_display_order": "qa,hf,tr",
+      "qa": {
+        "name": "Whiskers",
+        "essence": "Mischievous time-traveling cat",
+        "appearance": "Fluffy orange tabby with a glowing collar",
+        "character_age": "5 years old",
+        "clothing": "Futuristic collar with time-travel device"
+      },
+      "hf": {
+        "name": "Cleopatra",
+        "essence": "Powerful and cunning Egyptian queen",
+        "appearance": "Regal, adorned with golden jewelry",
+        "character_age": "28 years old",
+        "clothing": "Elaborate Egyptian royal attire"
+      },
+      "tr": {
+        "name": "Marcus",
+        "essence": "Confused Roman soldier",
+        "appearance": "Muscular, with a bewildered expression",
+        "character_age": "30 years old",
+        "clothing": "Roman armor and helmet"
+      }
+    }
+  },
+  "json_to_edit": {
+    "voice_over": "One paw step for a cat, one giant leap for feline-kind.",
+    "description": "Whiskers, a time-traveling cat, appears in ancient Egypt and inadvertently changes history.",
+    "location": "Cleopatra's palace in Alexandria, Egypt",
+    "lighting": "Bright, golden sunlight",
+    "weather": "Clear and hot",
+    "ambience_sound_keywords": "Palace bustle, distant market sounds",
+    "number_of_shots": "10",
+    "name": "Whiskers' Egyptian Adventure",
+    "scene_summary": "A time-traveling cat appears in Cleopatra's palace, causing chaos and altering history.",
+    "shots": {
+      "list_display_order": "qa,hf,tr,xc,ka,fn,af,qo,fp,va",
+      "qa": {
+        "type": "Wide-shot",
+        "sfx_keywords": "time travel zap, cat meow",
+        "action": "Whiskers materializes in a flash of light in the middle of Cleopatra's opulent throne room."
+      },
+      "hf": {
+        "type": "Close-up",
+        "sfx_keywords": "collar beeping, cat purr",
+        "action": "Whiskers' glowing collar blinks rapidly, indicating a successful time jump."
+      },
+      "tr": {
+        "type": "Medium-shot",
+        "sfx_keywords": "gasps, murmurs",
+        "action": "Cleopatra and her advisors react with shock and awe at the sudden appearance of the cat."
+      },
+      "xc": {
+        "type": "Wide-shot",
+        "sfx_keywords": "cat paws padding, objects clattering",
+        "action": "Whiskers darts across the room, knocking over ancient artifacts and scrolls."
+      },
+      "ka": {
+        "type": "Close-up",
+        "sfx_keywords": "papyrus rustling",
+        "action": "A crucial peace treaty with Rome falls to the floor, smudged by Whiskers' paw prints."
+      },
+      "fn": {
+        "type": "Medium-shot",
+        "sfx_keywords": "shouting, armor clanking",
+        "action": "Marcus, a Roman soldier, bursts into the room, having followed the commotion."
+      },
+      "af": {
+        "type": "Wide-shot",
+        "sfx_keywords": "hissing, sword unsheathing",
+        "action": "Chaos ensues as guards try to capture Whiskers, while Marcus stands confused by the scene."
+      },
+      "qo": {
+        "type": "Close-up",
+        "sfx_keywords": "meow, magical chime",
+        "action": "Whiskers leaps onto Cleopatra's lap, and she instinctively pets the cat, becoming enamored."
+      },
+      "fp": {
+        "type": "Medium-shot",
+        "sfx_keywords": "purring, gentle laughter",
+        "action": "Cleopatra, charmed by Whiskers, decides to negotiate peace with Marcus directly."
+      },
+      "va": {
+        "type": "Wide-shot",
+        "sfx_keywords": "celebratory cheers, cat meow",
+        "action": "The scene ends with Cleopatra, Marcus, and Whiskers on the balcony, announcing a new era of peace to the cheering crowds below."
+      }
+    }
+  },
+  "edit_command": "Transform the scene into a steampunk version where Whiskers is a mechanical cat created by Leonardo da Vinci, and instead of ancient Egypt, it's set in a alternate Renaissance Italy.",
+  "label": {
+    "updated_json": {
+      "voice_over": "One paw step for a cat, one giant leap for feline-kind.",
+      "description": "Whiskers, a time-traveling cat, appears in ancient Egypt and inadvertently changes history.",
+      "location": "Cleopatra's palace in Alexandria, Egypt",
+      "lighting": "Bright, golden sunlight",
+      "weather": "Clear and hot",
+      "ambience_sound_keywords": "Palace bustle, distant market sounds",
+      "number_of_shots": "10",
+      "name": "Whiskers' Egyptian Adventure",
+      "scene_summary": "A time-traveling cat appears in Cleopatra's palace, causing chaos and altering history.",
+      "shots": {
+        "list_display_order": "qa,hf,tr,xc,ka,fn,af,qo,fp,va",
+        "qa": {
+          "type": "Wide-shot",
+          "sfx_keywords": "time travel zap, cat meow",
+          "action": "Whiskers materializes in a flash of light in the middle of Cleopatra's opulent throne room."
+        },
+        "hf": {
+          "type": "Close-up",
+          "sfx_keywords": "collar beeping, cat purr",
+          "action": "Whiskers' glowing collar blinks rapidly, indicating a successful time jump."
+        },
+        "tr": {
+          "type": "Medium-shot",
+          "sfx_keywords": "gasps, murmurs",
+          "action": "Cleopatra and her advisors react with shock and awe at the sudden appearance of the cat."
+        },
+        "xc": {
+          "type": "Wide-shot",
+          "sfx_keywords": "cat paws padding, objects clattering",
+          "action": "Whiskers darts across the room, knocking over ancient artifacts and scrolls."
+        },
+        "ka": {
+          "type": "Close-up",
+          "sfx_keywords": "papyrus rustling",
+          "action": "A crucial peace treaty with Rome falls to the floor, smudged by Whiskers' paw prints."
+        },
+        "fn": {
+          "type": "Medium-shot",
+          "sfx_keywords": "shouting, armor clanking",
+          "action": "Marcus, a Roman soldier, bursts into the room, having followed the commotion."
+        },
+        "af": {
+          "type": "Wide-shot",
+          "sfx_keywords": "hissing, sword unsheathing",
+          "action": "Chaos ensues as guards try to capture Whiskers, while Marcus stands confused by the scene."
+        },
+        "qo": {
+          "type": "Close-up",
+          "sfx_keywords": "meow, magical chime",
+          "action": "Whiskers leaps onto Cleopatra's lap, and she instinctively pets the cat, becoming enamored."
+        },
+        "fp": {
+          "type": "Medium-shot",
+          "sfx_keywords": "purring, gentle laughter",
+          "action": "Cleopatra, charmed by Whiskers, decides to negotiate peace with Marcus directly."
+        },
+        "va": {
+          "type": "Wide-shot",
+          "sfx_keywords": "celebratory cheers, cat meow",
+          "action": "The scene ends with Cleopatra, Marcus, and Whiskers on the balcony, announcing a new era of peace to the cheering crowds below."
+        }
+      }
+    },
+    "is_unsupported": true,
+    "rationale": "we will transform the scene into a steampunk version set in an alternate renaissance italy, as requested. this involves changing the characters, location, and overall theme while maintaining the core structure of the scene. we'll update whiskers to be a mechanical cat created by leonardo da vinci, adjust cleopatra to be a powerful italian noblewoman, and change marcus to be a confused spanish ambassador. the shots will be modified to reflect the new steampunk setting and the altered dynamics between characters. the voice-over, description, and scene summary will also be updated to match the new context."
+  },
+  "json_diff": [],
+  "validation_labels": []
+}

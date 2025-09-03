@@ -1,0 +1,224 @@
+{
+  "context": {
+    "characters": {
+      "list_display_order": "qa,hf,tr",
+      "qa": {
+        "name": "Mia",
+        "essence": "Troubled artist seeking self-discovery",
+        "appearance": "Disheveled, with paint-stained hands",
+        "character_age": "28 years old",
+        "clothing": "Bohemian-style dress"
+      },
+      "hf": {
+        "name": "Dr. Elias",
+        "essence": "Enigmatic therapist with unconventional methods",
+        "appearance": "Bald, with piercing blue eyes",
+        "character_age": "55 years old",
+        "clothing": "Crisp white shirt and dark trousers"
+      },
+      "tr": {
+        "name": "Shadow Figure",
+        "essence": "Manifestation of Mia's subconscious fears",
+        "appearance": "Shadowy, constantly shifting form",
+        "character_age": "Ageless",
+        "clothing": "Swirling darkness"
+      }
+    }
+  },
+  "json_to_edit": {
+    "voice_over": "Sometimes, the truth we seek lies not in the world around us, but in our own reflection.",
+    "description": "Mia confronts her inner demons in a hall of mirrors therapy session.",
+    "location": "Abandoned funhouse",
+    "lighting": "Dim, with occasional flashes",
+    "weather": "Foggy",
+    "ambience_sound_keywords": "Distant carnival music, creaking floorboards",
+    "number_of_shots": "6",
+    "name": "Reflections of Truth",
+    "scene_summary": "Mia undergoes an intense therapy session in a hall of mirrors, confronting her fears and discovering hidden truths about herself.",
+    "shots": {
+      "list_display_order": "qa,hf,tr,xc,ka,fn",
+      "qa": {
+        "type": "Wide-shot",
+        "sfx_keywords": "eerie carnival music, fog machine",
+        "action": "Mia enters the abandoned funhouse, surrounded by fog and distorted mirrors."
+      },
+      "hf": {
+        "type": "Medium-shot",
+        "sfx_keywords": "footsteps, heartbeat",
+        "action": "Dr. Elias guides Mia through the maze of mirrors, his reflection multiplying around them."
+      },
+      "tr": {
+        "type": "Close-up",
+        "sfx_keywords": "sharp inhale, glass creaking",
+        "action": "Mia's eyes widen as she sees a distorted version of herself in one of the mirrors."
+      },
+      "xc": {
+        "type": "Medium-shot",
+        "sfx_keywords": "whispers, wind",
+        "action": "The Shadow Figure emerges from one of the mirrors, circling around Mia."
+      },
+      "ka": {
+        "type": "Close-up",
+        "sfx_keywords": "glass shattering, gasping",
+        "action": "Mia touches a mirror, causing it to crack and reveal a hidden truth about her past."
+      },
+      "fn": {
+        "type": "Wide-shot",
+        "sfx_keywords": "triumphant music, deep exhale",
+        "action": "Mia stands tall amidst the shattered mirrors, having confronted her fears and embraced her true self."
+      }
+    }
+  },
+  "edit_command": "Transform the scene into a surreal underwater exploration of the subconscious, replacing the mirrors with bioluminescent sea creatures.",
+  "label": {
+    "updated_json": {
+      "voice_over": "Sometimes, the truth we seek lies not in the world around us, but in the depths of our own being.",
+      "description": "Mia confronts her inner demons in a surreal underwater therapy session.",
+      "location": "Bioluminescent coral reef",
+      "lighting": "Dark with vibrant bioluminescent glow",
+      "weather": "Underwater currents",
+      "ambience_sound_keywords": "Muffled water sounds, whale songs",
+      "number_of_shots": "6",
+      "name": "Depths of Truth",
+      "scene_summary": "Mia undergoes an intense therapy session in a surreal underwater environment, confronting her fears and discovering hidden truths about herself through encounters with bioluminescent sea creatures.",
+      "shots": {
+        "list_display_order": "qa,hf,tr,xc,ka,fn",
+        "qa": {
+          "type": "Wide-shot",
+          "sfx_keywords": "bubbles rising, muffled dive",
+          "action": "Mia descends into the bioluminescent coral reef, surrounded by glowing sea creatures."
+        },
+        "hf": {
+          "type": "Medium-shot",
+          "sfx_keywords": "water movement, heartbeat",
+          "action": "Dr. Elias guides Mia through the maze of coral, their forms distorted by the water and bioluminescent lights."
+        },
+        "tr": {
+          "type": "Close-up",
+          "sfx_keywords": "gasp (bubbles), bioluminescent pulse",
+          "action": "Mia's eyes widen as she sees her reflection in the scales of a giant, glowing anglerfish."
+        },
+        "xc": {
+          "type": "Medium-shot",
+          "sfx_keywords": "swirling water, ethereal hum",
+          "action": "The Shadow Figure materializes as a dark, ink-like substance, circling around Mia in the water."
+        },
+        "ka": {
+          "type": "Close-up",
+          "sfx_keywords": "crystal chime, sudden current",
+          "action": "Mia touches a pulsating jellyfish, causing it to burst into a cloud of luminescent spores that reveal a hidden truth about her past."
+        },
+        "fn": {
+          "type": "Wide-shot",
+          "sfx_keywords": "triumphant whale song, deep exhale (bubbles)",
+          "action": "Mia floats serenely amidst a school of glowing fish, having confronted her fears and embraced her true self in this underwater realm."
+        }
+      }
+    },
+    "is_unsupported": false,
+    "rationale": "we will transform the scene from an abandoned funhouse to an underwater setting, maintaining the theme of self-discovery and confrontation with inner demons. this change will require updating the location, ambience, lighting, and the nature of the shots. we'll replace mirrors with bioluminescent sea creatures, which will serve as the new medium for reflection and revelation. the characters will remain the same, but their actions and surroundings will be adapted to fit the new underwater environment. this surreal transformation will enhance the dreamlike quality of the scene while preserving its psychological depth."
+  },
+  "json_diff": [
+    {
+      "op": "replace",
+      "path": "/voice_over",
+      "value": "Sometimes, the truth we seek lies not in the world around us, but in the depths of our own being."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "Mia confronts her inner demons in a surreal underwater therapy session."
+    },
+    {
+      "op": "replace",
+      "path": "/location",
+      "value": "Bioluminescent coral reef"
+    },
+    {
+      "op": "replace",
+      "path": "/lighting",
+      "value": "Dark with vibrant bioluminescent glow"
+    },
+    {
+      "op": "replace",
+      "path": "/weather",
+      "value": "Underwater currents"
+    },
+    {
+      "op": "replace",
+      "path": "/ambience_sound_keywords",
+      "value": "Muffled water sounds, whale songs"
+    },
+    {
+      "op": "replace",
+      "path": "/name",
+      "value": "Depths of Truth"
+    },
+    {
+      "op": "replace",
+      "path": "/scene_summary",
+      "value": "Mia undergoes an intense therapy session in a surreal underwater environment, confronting her fears and discovering hidden truths about herself through encounters with bioluminescent sea creatures."
+    },
+    {
+      "op": "replace",
+      "path": "/shots/qa/sfx_keywords",
+      "value": "bubbles rising, muffled dive"
+    },
+    {
+      "op": "replace",
+      "path": "/shots/qa/action",
+      "value": "Mia descends into the bioluminescent coral reef, surrounded by glowing sea creatures."
+    },
+    {
+      "op": "replace",
+      "path": "/shots/hf/sfx_keywords",
+      "value": "water movement, heartbeat"
+    },
+    {
+      "op": "replace",
+      "path": "/shots/hf/action",
+      "value": "Dr. Elias guides Mia through the maze of coral, their forms distorted by the water and bioluminescent lights."
+    },
+    {
+      "op": "replace",
+      "path": "/shots/tr/sfx_keywords",
+      "value": "gasp (bubbles), bioluminescent pulse"
+    },
+    {
+      "op": "replace",
+      "path": "/shots/tr/action",
+      "value": "Mia's eyes widen as she sees her reflection in the scales of a giant, glowing anglerfish."
+    },
+    {
+      "op": "replace",
+      "path": "/shots/xc/sfx_keywords",
+      "value": "swirling water, ethereal hum"
+    },
+    {
+      "op": "replace",
+      "path": "/shots/xc/action",
+      "value": "The Shadow Figure materializes as a dark, ink-like substance, circling around Mia in the water."
+    },
+    {
+      "op": "replace",
+      "path": "/shots/ka/sfx_keywords",
+      "value": "crystal chime, sudden current"
+    },
+    {
+      "op": "replace",
+      "path": "/shots/ka/action",
+      "value": "Mia touches a pulsating jellyfish, causing it to burst into a cloud of luminescent spores that reveal a hidden truth about her past."
+    },
+    {
+      "op": "replace",
+      "path": "/shots/fn/sfx_keywords",
+      "value": "triumphant whale song, deep exhale (bubbles)"
+    },
+    {
+      "op": "replace",
+      "path": "/shots/fn/action",
+      "value": "Mia floats serenely amidst a school of glowing fish, having confronted her fears and embraced her true self in this underwater realm."
+    }
+  ],
+  "validation_labels": []
+}

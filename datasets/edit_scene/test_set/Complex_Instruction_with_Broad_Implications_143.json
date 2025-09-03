@@ -1,0 +1,170 @@
+{
+  "context": {
+    "characters": {
+      "list_display_order": "qa,hf,tr,xc",
+      "qa": {
+        "name": "Dr. Emily Hawthorne",
+        "essence": "Ambitious archaeologist",
+        "appearance": "Athletic build, shoulder-length brown hair",
+        "character_age": "35 years old",
+        "clothing": "Khaki field clothes and boots"
+      },
+      "hf": {
+        "name": "Marcus Rivera",
+        "essence": "Skeptical museum curator",
+        "appearance": "Tall, bespectacled with salt-and-pepper hair",
+        "character_age": "50 years old",
+        "clothing": "Tailored suit and tie"
+      },
+      "tr": {
+        "name": "Zara Okoye",
+        "essence": "Spiritual guide",
+        "appearance": "Petite with intricate braids",
+        "character_age": "60 years old",
+        "clothing": "Colorful traditional African robes"
+      },
+      "xc": {
+        "name": "Agent Jack Donovan",
+        "essence": "Government operative",
+        "appearance": "Muscular build with a buzz cut",
+        "character_age": "40 years old",
+        "clothing": "Dark suit and sunglasses"
+      }
+    }
+  },
+  "json_to_edit": {
+    "voice_over": "Little did we know, the mask held powers beyond our wildest imaginations.",
+    "description": "Dr. Emily Hawthorne discovers an ancient mask in a hidden temple chamber.",
+    "location": "Hidden temple chamber",
+    "lighting": "Dim, with flickering torchlight",
+    "weather": "Humid and misty",
+    "ambience_sound_keywords": "Dripping water, distant echoes, subtle wind",
+    "number_of_shots": "10",
+    "name": "The Mask of Transformation",
+    "scene_summary": "Dr. Emily Hawthorne uncovers an ancient mask that brings forth a new identity, witnessed by skeptical and intrigued onlookers.",
+    "shots": {
+      "list_display_order": "qa,hf,tr,xc,ka,fn,af,qo,fp,va",
+      "qa": {
+        "type": "Establishing shot",
+        "sfx_keywords": "jungle sounds, bird calls",
+        "action": "Aerial view of a dense jungle, revealing a partially hidden ancient temple."
+      },
+      "hf": {
+        "type": "Wide shot",
+        "sfx_keywords": "footsteps, rustling leaves",
+        "action": "Dr. Hawthorne and her team approach the entrance of the temple."
+      },
+      "tr": {
+        "type": "Medium shot",
+        "sfx_keywords": "stone grinding, dust falling",
+        "action": "The team pushes open a heavy stone door, revealing a dark passage."
+      },
+      "xc": {
+        "type": "Tracking shot",
+        "sfx_keywords": "echoing footsteps, dripping water",
+        "action": "The camera follows the team as they navigate through narrow, winding corridors."
+      },
+      "ka": {
+        "type": "Wide shot",
+        "sfx_keywords": "gasps, camera flashes",
+        "action": "The group enters a vast chamber filled with ancient artifacts and hieroglyphs."
+      },
+      "fn": {
+        "type": "Close-up",
+        "sfx_keywords": "cloth rustling, breath intake",
+        "action": "Dr. Hawthorne's hands carefully remove a dusty cloth, revealing the ornate mask."
+      },
+      "af": {
+        "type": "Medium shot",
+        "sfx_keywords": "murmuring, shuffling",
+        "action": "Marcus Rivera examines the mask skeptically while Zara Okoye looks on with concern."
+      },
+      "qo": {
+        "type": "Close-up",
+        "sfx_keywords": "heartbeat, subtle whispers",
+        "action": "Dr. Hawthorne's eyes widen as she slowly lifts the mask towards her face."
+      },
+      "fp": {
+        "type": "Wide shot",
+        "sfx_keywords": "wind gust, energy surge",
+        "action": "A sudden gust of wind sweeps through the chamber as Dr. Hawthorne puts on the mask."
+      },
+      "va": {
+        "type": "Reaction shot",
+        "sfx_keywords": "gasps, exclamations",
+        "action": "The team reacts in shock as Dr. Hawthorne's appearance begins to change dramatically."
+      }
+    }
+  },
+  "edit_command": "Transform the scene into a modern-day heist at a high-tech museum, keeping the mask as the central artifact but changing the characters to a team of professional thieves.",
+  "label": {
+    "updated_json": {
+      "voice_over": "Little did we know, the mask held powers beyond our wildest imaginations.",
+      "description": "Dr. Emily Hawthorne discovers an ancient mask in a hidden temple chamber.",
+      "location": "Hidden temple chamber",
+      "lighting": "Dim, with flickering torchlight",
+      "weather": "Humid and misty",
+      "ambience_sound_keywords": "Dripping water, distant echoes, subtle wind",
+      "number_of_shots": "10",
+      "name": "The Mask of Transformation",
+      "scene_summary": "Dr. Emily Hawthorne uncovers an ancient mask that brings forth a new identity, witnessed by skeptical and intrigued onlookers.",
+      "shots": {
+        "list_display_order": "qa,hf,tr,xc,ka,fn,af,qo,fp,va",
+        "qa": {
+          "type": "Establishing shot",
+          "sfx_keywords": "jungle sounds, bird calls",
+          "action": "Aerial view of a dense jungle, revealing a partially hidden ancient temple."
+        },
+        "hf": {
+          "type": "Wide shot",
+          "sfx_keywords": "footsteps, rustling leaves",
+          "action": "Dr. Hawthorne and her team approach the entrance of the temple."
+        },
+        "tr": {
+          "type": "Medium shot",
+          "sfx_keywords": "stone grinding, dust falling",
+          "action": "The team pushes open a heavy stone door, revealing a dark passage."
+        },
+        "xc": {
+          "type": "Tracking shot",
+          "sfx_keywords": "echoing footsteps, dripping water",
+          "action": "The camera follows the team as they navigate through narrow, winding corridors."
+        },
+        "ka": {
+          "type": "Wide shot",
+          "sfx_keywords": "gasps, camera flashes",
+          "action": "The group enters a vast chamber filled with ancient artifacts and hieroglyphs."
+        },
+        "fn": {
+          "type": "Close-up",
+          "sfx_keywords": "cloth rustling, breath intake",
+          "action": "Dr. Hawthorne's hands carefully remove a dusty cloth, revealing the ornate mask."
+        },
+        "af": {
+          "type": "Medium shot",
+          "sfx_keywords": "murmuring, shuffling",
+          "action": "Marcus Rivera examines the mask skeptically while Zara Okoye looks on with concern."
+        },
+        "qo": {
+          "type": "Close-up",
+          "sfx_keywords": "heartbeat, subtle whispers",
+          "action": "Dr. Hawthorne's eyes widen as she slowly lifts the mask towards her face."
+        },
+        "fp": {
+          "type": "Wide shot",
+          "sfx_keywords": "wind gust, energy surge",
+          "action": "A sudden gust of wind sweeps through the chamber as Dr. Hawthorne puts on the mask."
+        },
+        "va": {
+          "type": "Reaction shot",
+          "sfx_keywords": "gasps, exclamations",
+          "action": "The team reacts in shock as Dr. Hawthorne's appearance begins to change dramatically."
+        }
+      }
+    },
+    "is_unsupported": true,
+    "rationale": "we will transform the scene into a modern-day heist at a high-tech museum while keeping the mask as the central artifact and changing the characters to a team of professional thieves. this transformation will require significant changes to the scene's setting, characters, and actions, while maintaining the core element of the mysterious mask. we'll update the location, lighting, ambience, and shots to reflect a high-tech museum environment. the characters will be reimagined as skilled thieves with specific roles in the heist. the overall structure of the scene will remain similar, but the context and details will be adapted to fit the new heist scenario."
+  },
+  "json_diff": [],
+  "validation_labels": []
+}

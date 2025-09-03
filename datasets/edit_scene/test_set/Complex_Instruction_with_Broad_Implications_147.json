@@ -1,0 +1,221 @@
+{
+  "context": {
+    "characters": {
+      "list_display_order": "qa,hf,tr,xc",
+      "qa": {
+        "name": "Professor Eliza Thornwood",
+        "essence": "Eccentric art historian",
+        "appearance": "Frizzy gray hair, thick-rimmed glasses",
+        "character_age": "62 years old",
+        "clothing": "Colorful, mismatched academic attire"
+      },
+      "hf": {
+        "name": "Detective Jack Hawthorne",
+        "essence": "Skeptical but open-minded investigator",
+        "appearance": "Rugged features, piercing blue eyes",
+        "character_age": "38 years old",
+        "clothing": "Well-worn trench coat and fedora"
+      },
+      "tr": {
+        "name": "Lily Chen",
+        "essence": "Intuitive psychic medium",
+        "appearance": "Petite with flowing black hair",
+        "character_age": "28 years old",
+        "clothing": "Bohemian-style dress and multiple crystal necklaces"
+      },
+      "xc": {
+        "name": "Marcus Blackwood",
+        "essence": "Mysterious art collector",
+        "appearance": "Tall, slender with a silver-tipped cane",
+        "character_age": "55 years old",
+        "clothing": "Tailored black suit with a blood-red tie"
+      }
+    }
+  },
+  "json_to_edit": {
+    "voice_over": "The painting seemed to breathe, each brushstroke a gateway to another world.",
+    "description": "A group investigates a cursed painting that shows glimpses of alternate realities.",
+    "location": "Dimly lit art gallery",
+    "lighting": "Flickering, eerie",
+    "weather": "Stormy outside",
+    "ambience_sound_keywords": "Thunder, creaking floorboards, whispers",
+    "number_of_shots": "6",
+    "name": "The Cursed Canvas",
+    "scene_summary": "Professor Thornwood leads a team to investigate a painting that shows alternate realities, causing tension and revelations among the group.",
+    "shots": {
+      "list_display_order": "qa,hf,tr,xc,ka,fn",
+      "qa": {
+        "type": "Wide-shot",
+        "sfx_keywords": "thunder, rain",
+        "action": "The team enters the gallery, lightning illuminating the cursed painting."
+      },
+      "hf": {
+        "type": "Medium-shot",
+        "sfx_keywords": "creaking floorboards, whispers",
+        "action": "Professor Thornwood approaches the painting, her eyes wide with fascination."
+      },
+      "tr": {
+        "type": "Close-up",
+        "sfx_keywords": "heartbeat, eerie whispers",
+        "action": "The painting's surface ripples, showing glimpses of alternate realities."
+      },
+      "xc": {
+        "type": "Medium-shot",
+        "sfx_keywords": "gasps, thunder",
+        "action": "Detective Hawthorne pulls Lily back as she reaches out to touch the canvas."
+      },
+      "ka": {
+        "type": "Over-the-shoulder",
+        "sfx_keywords": "crackling energy, whispers",
+        "action": "Marcus Blackwood watches from the shadows, a knowing smirk on his face."
+      },
+      "fn": {
+        "type": "Extreme close-up",
+        "sfx_keywords": "heartbeat, distorted voices",
+        "action": "A tear forms in Lily's eye as she sees a glimpse of her deceased mother in the painting."
+      }
+    }
+  },
+  "edit_command": "Transform the scene into a comedic parody where the cursed painting shows embarrassing moments from each character's past instead of alternate realities.",
+  "label": {
+    "updated_json": {
+      "voice_over": "The painting seemed to snicker, each brushstroke a gateway to cringe-worthy memories.",
+      "description": "A group investigates a cursed painting that shows embarrassing moments from each character's past.",
+      "location": "Dimly lit art gallery",
+      "lighting": "Flickering, comically timed",
+      "weather": "Stormy outside",
+      "ambience_sound_keywords": "Thunder, creaking floorboards, muffled laughter",
+      "number_of_shots": "6",
+      "name": "The Embarrassing Canvas",
+      "scene_summary": "Professor Thornwood leads a team to investigate a painting that reveals embarrassing moments from their pasts, causing hilarious reactions and awkward revelations among the group.",
+      "shots": {
+        "list_display_order": "qa,hf,tr,xc,ka,fn",
+        "qa": {
+          "type": "Wide-shot",
+          "sfx_keywords": "thunder, rain, cartoon slip sound",
+          "action": "The team enters the gallery, lightning illuminating the cursed painting as Professor Thornwood trips over her mismatched shoes."
+        },
+        "hf": {
+          "type": "Medium-shot",
+          "sfx_keywords": "creaking floorboards, stifled giggles",
+          "action": "Professor Thornwood approaches the painting, her eyes widening in horror as it reveals her karaoke performance of 'I Will Survive' at last year's faculty party."
+        },
+        "tr": {
+          "type": "Close-up",
+          "sfx_keywords": "record scratch, laugh track",
+          "action": "The painting's surface ripples, showing Lily's failed attempt at a psychic reading where she mistook a dog's bark for a spirit message."
+        },
+        "xc": {
+          "type": "Medium-shot",
+          "sfx_keywords": "gasps, thunder, comical boink",
+          "action": "Detective Hawthorne lunges to cover the painting, accidentally revealing his teenage goth phase complete with eyeliner and a failed attempt at juggling."
+        },
+        "ka": {
+          "type": "Over-the-shoulder",
+          "sfx_keywords": "crackling energy, sitcom laughter",
+          "action": "Marcus Blackwood watches from the shadows, his smirk turning to panic as the painting shows him wearing a 'Kiss the Cook' apron while burning water."
+        },
+        "fn": {
+          "type": "Extreme close-up",
+          "sfx_keywords": "cartoon spring sound, laugh track",
+          "action": "Lily's jaw drops comically as she sees a glimpse of herself getting her braces stuck to a magnet during her first kiss."
+        }
+      }
+    },
+    "is_unsupported": false,
+    "rationale": "we can transform this scene into a comedic parody by changing the nature of the cursed painting and adjusting the characters' reactions and actions accordingly. we'll modify the scene description, voice over, and shots to reflect the new comedic tone and the embarrassing moments revealed by the painting. the characters and location will remain the same, but their interactions and the painting's effects will be altered for humorous effect."
+  },
+  "json_diff": [
+    {
+      "op": "replace",
+      "path": "/voice_over",
+      "value": "The painting seemed to snicker, each brushstroke a gateway to cringe-worthy memories."
+    },
+    {
+      "op": "replace",
+      "path": "/description",
+      "value": "A group investigates a cursed painting that shows embarrassing moments from each character's past."
+    },
+    {
+      "op": "replace",
+      "path": "/lighting",
+      "value": "Flickering, comically timed"
+    },
+    {
+      "op": "replace",
+      "path": "/ambience_sound_keywords",
+      "value": "Thunder, creaking floorboards, muffled laughter"
+    },
+    {
+      "op": "replace",
+      "path": "/name",
+      "value": "The Embarrassing Canvas"
+    },
+    {
+      "op": "replace",
+      "path": "/scene_summary",
+      "value": "Professor Thornwood leads a team to investigate a painting that reveals embarrassing moments from their pasts, causing hilarious reactions and awkward revelations among the group."
+    },
+    {
+      "op": "replace",
+      "path": "/shots/qa/sfx_keywords",
+      "value": "thunder, rain, cartoon slip sound"
+    },
+    {
+      "op": "replace",
+      "path": "/shots/qa/action",
+      "value": "The team enters the gallery, lightning illuminating the cursed painting as Professor Thornwood trips over her mismatched shoes."
+    },
+    {
+      "op": "replace",
+      "path": "/shots/hf/sfx_keywords",
+      "value": "creaking floorboards, stifled giggles"
+    },
+    {
+      "op": "replace",
+      "path": "/shots/hf/action",
+      "value": "Professor Thornwood approaches the painting, her eyes widening in horror as it reveals her karaoke performance of 'I Will Survive' at last year's faculty party."
+    },
+    {
+      "op": "replace",
+      "path": "/shots/tr/sfx_keywords",
+      "value": "record scratch, laugh track"
+    },
+    {
+      "op": "replace",
+      "path": "/shots/tr/action",
+      "value": "The painting's surface ripples, showing Lily's failed attempt at a psychic reading where she mistook a dog's bark for a spirit message."
+    },
+    {
+      "op": "replace",
+      "path": "/shots/xc/sfx_keywords",
+      "value": "gasps, thunder, comical boink"
+    },
+    {
+      "op": "replace",
+      "path": "/shots/xc/action",
+      "value": "Detective Hawthorne lunges to cover the painting, accidentally revealing his teenage goth phase complete with eyeliner and a failed attempt at juggling."
+    },
+    {
+      "op": "replace",
+      "path": "/shots/ka/sfx_keywords",
+      "value": "crackling energy, sitcom laughter"
+    },
+    {
+      "op": "replace",
+      "path": "/shots/ka/action",
+      "value": "Marcus Blackwood watches from the shadows, his smirk turning to panic as the painting shows him wearing a 'Kiss the Cook' apron while burning water."
+    },
+    {
+      "op": "replace",
+      "path": "/shots/fn/sfx_keywords",
+      "value": "cartoon spring sound, laugh track"
+    },
+    {
+      "op": "replace",
+      "path": "/shots/fn/action",
+      "value": "Lily's jaw drops comically as she sees a glimpse of herself getting her braces stuck to a magnet during her first kiss."
+    }
+  ],
+  "validation_labels": []
+}
